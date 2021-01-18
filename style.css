@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
+
+body{
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container{
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 500px;
+  max-width: 100%;
+  position: absolute;
+  top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 40px 20px 135px;
+}
+
+.header h2{
+  margin: 0;
+}
+
+.control{
+  margin-bottom: 1px;
+  padding-bottom : 10px;
+  position: relative;
+}
+
+.control label{
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 22px;
+  margin-bottom: 0;
+  margin-right:0;
+  font-size: 18px;
+}
+
+.control input{
+  border: 2px solid #f0f0f0;
+  margin: 0px 20px 0px 20px;
+  display: block;
+  width: 90%;
+}
+
+.control.error small{
+  visibility: visible;
+  color: #e74c7c;
+  margin-left: 20px;
+}
+
+.control small{
+  visibility: hidden;
+}
+
+.control.error input{
+  border-color: #e74c3c;
+}
+
+.button{
+  background-color: #9b59b6;
+  border: 7px solid #9b59b6;
+  color: #fff;
+  display: block;
+  width: 75%;
+  text-align: center;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+table,th,td{
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 150;
+  padding: 10px;
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+  border-collapse: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.edit.p{
+  visibility: visible;
+  border-radius: 10px;
+  width: 20%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 10px 0px 10px 200px;
+}
+.edit{
+  visibility: hidden;
+}
+
+.delete{
+  border-radius: 5px;
+  background-color: #9b59b6;
+  color: #fff;
+}

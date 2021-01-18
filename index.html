@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class = "container">
+      <div class="header">
+        <h2>Create New College</h2>
+      </div>
+
+        <form id="form">
+          <div class="control">
+            <label for="collegeName">College Name</label>
+            <input type="text" placeholder="ex: MSRIT, BMSIT, etc." id="collegeName">
+            <small>Error</small>
+          </div>
+
+          <div class="control">
+            <label for="repName">Name</label>
+            <input type="text" placeholder="Name" id="repName">
+            <small>Error</small>
+          </div>
+
+          <div class="control">
+            <label for="repEmail">Email</label>
+            <input type="email" placeholder="Email Address" id="repEmail">
+            <small>Error</small>
+          </div>
+
+          <button class="button">Submit</button>
+      </form>
+      <div id="table" class="table">
+       <table>
+         <tr>
+           <th>College Name</th>
+           <th>Representative Name</th>
+           <th>Representative Email</th>
+           <th>Edit/Delete</th>
+         </tr>
+       </table>
+       <button class="edit">Edit</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
