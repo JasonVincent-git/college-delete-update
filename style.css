@@ -14,7 +14,7 @@ body{
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  width: 500px;
+  width: 750px;
   max-width: 100%;
   position: absolute;
   top: 50px;
@@ -32,6 +32,7 @@ body{
 }
 
 .control{
+  margin-left: 10px;
   margin-bottom: 1px;
   padding-bottom : 10px;
   position: relative;
@@ -74,7 +75,7 @@ body{
   display: block;
   width: 75%;
   text-align: center;
-  margin-left: 60px;
+  margin-left: 90px;
   margin-bottom: 20px;
   font-size: 15px;
 }
@@ -83,13 +84,17 @@ table,th,td{
   background: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  width: 150;
+  width: 750px;
   padding: 10px;
   position: relative;
   margin-top: 20px;
   text-align: center;
   border-collapse: 1px;
   font-family: 'Roboto', sans-serif;
+}
+.table input{
+  width: 75%;
+  border-color: #9b59b6;
 }
 
 .edit.p{
@@ -105,7 +110,12 @@ table,th,td{
 }
 
 .delete{
+  visibility: visible;
   border-radius: 5px;
   background-color: #9b59b6;
   color: #fff;
+  display: block;
+}
+.deleteHidden{
+  visibility: hidden;
 }
